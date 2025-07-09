@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colette - Portfolio Animatrice 2D/3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Colette</div>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Colette</h1>
+                <h2>Animatrice 2D & 3D</h2>
+                <p>Donner vie aux idées, une image à la fois.</p>
+                <a href="#portfolio" class="btn">Voir mes projets</a>
+            </div>
+            </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Mes Réalisations</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-project-id="1">
+                    <img src="images/projet1-thumbnail.jpg" alt="Miniature Projet 1">
+                    <h3>Titre du Projet 1</h3>
+                    <p>Animation de personnage 3D</p>
+                </div>
+                <div class="portfolio-item" data-project-id="2">
+                    <img src="images/projet2-thumbnail.jpg" alt="Miniature Projet 2">
+                    <h3>Titre du Projet 2</h3>
+                    <p>Animation 2D stylisée</p>
+                </div>
+                </div>
+
+            <div id="project-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <div id="modal-video-container">
+                        </div>
+                    <p id="modal-description"></p>
+                    <p><strong>Rôle :</strong> <span id="modal-role"></span></p>
+                    <p><strong>Logiciels :</strong> <span id="modal-software"></span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <img src="images/portrait.jpg" alt="Votre Photo" class="profile-photo">
+                <p>Bonjour ! Je suis [Votre Nom], une animatrice passionnée par l'art de donner vie aux histoires et aux personnages.</p>
+                <p>Avec X années d'expérience en animation 2D et 3D, je suis spécialisée dans [vos spécialités, ex: animation de personnages, motion graphics, VFX]. Je maîtrise des logiciels tels que [Logiciels, ex: Maya, Blender, Toon Boom Harmony, After Effects, ZBrush].</p>
+                <p>Mon objectif est de créer des animations impactantes et mémorables. N'hésitez pas à me contacter pour discuter de votre prochain projet !</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contactez-moi</h2>
+            <p>Je suis toujours ouverte aux nouvelles opportunités et collaborations.</p>
+            <div class="contact-links">
+                <p>Email: <a href="mailto:votre.email@example.com">votre.email@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/votrenom" target="_blank">linkedin.com/in/votrenom</a></p>
+                <p>ArtStation: <a href="https://www.artstation.com/votrenom" target="_blank">artstation.com/votrenom</a></p>
+                <p>Vimeo: <a href="https://vimeo.com/votrenom" target="_blank">vimeo.com/votrenom</a></p>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Colette. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
